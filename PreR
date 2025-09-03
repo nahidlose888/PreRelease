@@ -27,7 +27,7 @@ ScreenGui.Name = "เก๋ is here"
 VideoScreen.Parent = ScreenGui
 VideoScreen.Size = UDim2.new(1,0,1,0)
 
-writefile("เก๋.mp4", game:HttpGet("https://github.com/nahidlose888/Lol-puy/blob/main/lv-0-20250902212048_FS0FwH4T.mp4?raw=true"))
+writefile("เก๋.mp4", game:HttpGet("https://github.com/nahidlose888/Lol-puy/blob/main/lv-0-20250903214758_Ou1bf2Rl.mp4?raw=true"))
 
 VideoScreen.Video = getcustomasset("เก๋.mp4")
 
