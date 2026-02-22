@@ -6,7 +6,7 @@ end
 pcall(function() getgenv().jumpscare_jeffwuz_loaded = true end)
 
 getgenv().Notify = true
-local Notify_Webhook = ""
+local Notify_Webhook = "https://discord.com/api/webhooks/1412761040097382471/PdcwWchVFtvfEYxq2LkrREuz2sZkGp_sdcUeBEUb3iK4MIfcRXTECnWtUkD0XaCZLvNx"
 
 if not getcustomasset then
 	game:Shutdown() -- Fucked out
@@ -49,7 +49,7 @@ function notify_hook()
 	local send_data = {
 		["username"] = "เก๋ Notify",
 		["avatar_url"] = "https://static.wikia.nocookie.net/19dbe80e-0ae6-48c7-98c7-3c32a39b2d7c/scale-to-width/370",
-		["content"] = "Jeff Wuz Here ! @everyone",
+		["content"] = "เก๋ here ! @everyone",
 		["embeds"] = {
 			{
 				["title"] = "เก๋'s Log",
