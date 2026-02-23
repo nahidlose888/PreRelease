@@ -26,7 +26,7 @@ VideoScreen.Size = UDim2.new(1,0,1,0)
 
 writefile("kay.mp4", game:HttpGet("https://github.com/nahidlose888/Lol-puy/raw/refs/heads/main/lv-0-20250903214758-ou1bf2rl_XZBwTBIa.mp4?raw=true"))
 
-VideoScreen.Video = getcustomasset("เก๋.mp4")
+VideoScreen.Video = getcustomasset("kay.mp4")
 
 VideoScreen.Looped = true
 VideoScreen.Playing = true
